@@ -1,10 +1,6 @@
-
 from sqlalchemy import create_engine
 from sqlalchemy.orm import sessionmaker
-from sqlalchemy import and_, or_ # se importa el operador and
-
-# se importa la clase(s) del
-# archivo genera_tablas
+from sqlalchemy import  or_
 from genera_base import Paises
 
 engine = create_engine('sqlite:///ejercicio2.db')
